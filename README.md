@@ -76,7 +76,7 @@ Building secure, scalable applications while exploring the endless possibilities
 
 - 🔭 Currently working on **Full-Stack Web Applications**
 - 🌱 Learning **Python** and **Internet Programming**
-- 👯 Looking to collaborate on **Open Source Projects**
+- 👯 Looking to build **Innovative Tech Solutions**
 - 💬 Ask me about **Java, Web Development, Cybersecurity**
 - ⚡ Fun fact: **I can debug code for hours but still forget where I put my keys!** 😄
 
@@ -201,7 +201,7 @@ Building secure, scalable applications while exploring the endless possibilities
   <img src="https://github-profile-trophy.vercel.app/?username=kadiwalhussain&theme=tokyonight&no-frame=true&column=4&margin-w=15&margin-h=15" />
 </p>
 
-### 📈 Contribution Graph
+### 📈 Activity Graph
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=kadiwalhussain&theme=tokyo-night&hide_border=true&area=true" width="95%"/>
 
@@ -299,7 +299,7 @@ Building secure, scalable applications while exploring the endless possibilities
 **⚡ Daily Routine:**
 - Morning: Coffee + GitHub notifications ☕
 - Day: Coding, learning, building projects
-- Evening: Open source contributions & networking
+- Evening: Skill development & networking
 - Night: Reading tech articles & planning tomorrow
 
 </details>
@@ -311,7 +311,7 @@ Building secure, scalable applications while exploring the endless possibilities
 **✅ Completed:**
 - Mastered Python fundamentals
 - Built several web applications
-- Contributed to open source projects
+- Developed personal portfolio projects
 - Expanded cybersecurity knowledge
 
 **🎯 In Progress:**
@@ -322,9 +322,9 @@ Building secure, scalable applications while exploring the endless possibilities
 
 **🚀 Upcoming:**
 - Launch personal tech blog
-- Create more open source tools
+- Build innovative development tools
 - Participate in hackathons
-- Mentoring newcomers to coding
+- Share knowledge with the tech community
 
 </details>
 
@@ -355,7 +355,7 @@ Building secure, scalable applications while exploring the endless possibilities
 
 ```javascript
 const collaboration = {
-  interests: ["Web Development", "Python Projects", "Open Source"],
+  interests: ["Web Development", "Python Projects", "Tech Innovation"],
   lookingFor: ["Cool Projects", "Learning Opportunities", "Tech Discussions"],
   canHelp: ["Code Reviews", "Beginner Guidance", "Project Ideas"],
   motto: "Let's build something amazing together! 🚀"
