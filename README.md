@@ -87,6 +87,8 @@ Developing scalable full-stack applications, mastering Python frameworks, and ex
 - ⚡ **Fun Fact**: I can debug complex algorithms for hours, but still need Google Maps to find my way! 😄
 - 🎯 **Goal**: Building a strong portfolio of innovative projects and contributing to the tech community
 
+- 
+
 </details>
 
 ---
