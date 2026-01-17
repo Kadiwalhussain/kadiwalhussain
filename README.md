@@ -174,38 +174,56 @@ I'm a **Full-Stack Developer** passionate about building innovative solutions an
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Activity
 
 <div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Kadiwalhussain&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&custom_title=⚡%20GitHub%20Statistics&include_all_commits=true&rank_icon=github" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Kadiwalhussain&theme=tokyonight&hide_border=true&fire=58A6FF&ring=58A6FF" />
-
-<img width="65%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kadiwalhussain&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&exclude_repo=github-readme-stats" />
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kadiwalhussain&theme=tokyonight&no-frame=true&column=5&margin-w=15&margin-h=15&rank=SSS,SS,S,AAA,AA,A,B,C" />
-</p>
 
 ### 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kadiwalhussain&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kadiwalhussain&theme=tokyo-night&hide_border=true&area=true&height=300" alt="Contribution Graph" />
 </p>
 
-### 🐍 Contribution Activity Snake
+### 📊 GitHub Profile Summary
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kadiwalhussain/kadiwalhussain/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kadiwalhussain/kadiwalhussain/output/github-contribution-grid-snake.svg">
-    <img src="https://raw.githubusercontent.com/Kadiwalhussain/kadiwalhussain/output/github-contribution-grid-snake.svg" alt="snake eating my contributions" />
-  </picture>
-</p>
+<table>
+<tr>
+<td align="center">
+  
+**📦 Public Repositories**
+<br>
+<a href="https://github.com/Kadiwalhussain?tab=repositories">
+  <img src="https://img.shields.io/badge/Repos-Available-4A90E2?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a1a" />
+</a>
 
-<p align="center">
-  <sub>💡 <strong>Note:</strong> If the snake doesn't appear, go to the <a href="https://github.com/Kadiwalhussain/kadiwalhussain/actions">Actions tab</a> and manually run the "Generate Contribution Snake" workflow.</sub>
-</p>
+</td>
+<td align="center">
+
+**💻 Languages Used**
+<br>
+<strong>Python</strong> • <strong>JavaScript</strong> • <strong>Java</strong>
+<br>
+<strong>C/C++</strong> • <strong>HTML/CSS</strong>
+
+</td>
+<td align="center">
+
+**🔧 Technologies**
+<br>
+<strong>React</strong> • <strong>Django</strong> • <strong>Node.js</strong>
+<br>
+<strong>MySQL</strong> • <strong>MongoDB</strong>
+
+</td>
+</tr>
+</table>
+
+### 🎯 Recent Activity
+
+- 🔨 Building full-stack web applications
+- 🐍 Developing Python automation tools
+- 🔐 Researching cybersecurity practices
+- 📚 Learning advanced system design
 
 </div>
 
