@@ -196,7 +196,11 @@ I'm a **Full-Stack Developer** passionate about building innovative solutions an
 ### 🐍 Contribution Activity Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kadiwalhussain/kadiwalhussain/output/github-contribution-grid-snake.svg" alt="snake eating my contributions" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kadiwalhussain/kadiwalhussain/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kadiwalhussain/kadiwalhussain/output/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/Kadiwalhussain/kadiwalhussain/output/github-contribution-grid-snake.svg" alt="snake eating my contributions" />
+  </picture>
 </p>
 
 <p align="center">
