@@ -190,8 +190,10 @@ I'm a **Full-Stack Developer** passionate about building innovative solutions an
 ### 🐍 Contribution Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kadiwalhussain/Kadiwalhussain/output/github-contribution-grid-snake.svg" alt="snake eating my contributions" />
+  <img src="https://raw.githubusercontent.com/Kadiwalhussain/kadiwalhussain/output/github-contribution-grid-snake.svg" alt="snake eating my contributions" onerror="this.style.display='none'" />
 </p>
+
+> **Note:** The contribution snake will appear after the GitHub Actions workflow runs. If you don't see it, go to the [Actions tab](https://github.com/Kadiwalhussain/kadiwalhussain/actions) and run the "Generate Contribution Snake" workflow manually.
 
 </div>
 
