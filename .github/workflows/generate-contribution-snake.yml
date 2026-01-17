@@ -1,0 +1,36 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    # Runs every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Generate GitHub Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Kadiwalhussain
+          outputs: |
+            output/github-contribution-grid-snake.svg
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
+      
+      - name: Push to GitHub
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/
+          git diff --staged --quiet || (git commit -m "Update contribution snake [skip ci]" && git push)
