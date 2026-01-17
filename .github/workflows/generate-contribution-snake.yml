@@ -34,25 +34,42 @@ jobs:
       - name: Move files to output directory
         run: |
           mkdir -p output
+          echo "Checking for generated files..."
+          ls -la dist/ || echo "Dist directory not found"
+          ls -la . || echo "Current directory contents:"
+          
           if [ -f "dist/github-contribution-grid-snake.svg" ]; then
             cp dist/github-contribution-grid-snake.svg output/
             echo "✅ Copied snake SVG to output/"
+          else
+            echo "⚠️ dist/github-contribution-grid-snake.svg not found, checking alternative locations..."
+            find . -name "*.svg" -type f 2>/dev/null | head -10
           fi
+          
           if [ -f "dist/github-contribution-grid-snake-dark.svg" ]; then
             cp dist/github-contribution-grid-snake-dark.svg output/
             echo "✅ Copied dark snake SVG to output/"
           fi
-          ls -la output/ || echo "Output directory contents:"
-          ls -la dist/ || echo "Dist directory contents:"
+          
+          echo "Final output directory contents:"
+          ls -la output/ || echo "Output directory is empty"
       
       - name: Push to GitHub
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add output/
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
+          
+          # Check if output directory has files
+          if [ "$(ls -A output/ 2>/dev/null)" ]; then
+            echo "✅ Files found in output directory, proceeding to commit..."
+            git add output/
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+            else
+              git commit -m "Update contribution snake [skip ci]"
+              git push
+            fi
           else
-            git commit -m "Update contribution snake [skip ci]"
-            git push
+            echo "⚠️ No files in output directory to commit"
+            # Don't fail the workflow, just log a warning
           fi
