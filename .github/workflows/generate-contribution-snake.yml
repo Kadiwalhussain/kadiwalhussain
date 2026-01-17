@@ -28,18 +28,22 @@ jobs:
         with:
           github_user_name: Kadiwalhussain
           outputs: |
-            output/github-contribution-grid-snake.svg
-            output/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
       
-      - name: Verify file exists
+      - name: Move files to output directory
         run: |
-          if [ -f "output/github-contribution-grid-snake.svg" ]; then
-            echo "✅ Snake SVG generated successfully"
-            ls -lh output/
-          else
-            echo "❌ Snake SVG not found"
-            exit 1
+          mkdir -p output
+          if [ -f "dist/github-contribution-grid-snake.svg" ]; then
+            cp dist/github-contribution-grid-snake.svg output/
+            echo "✅ Copied snake SVG to output/"
           fi
+          if [ -f "dist/github-contribution-grid-snake-dark.svg" ]; then
+            cp dist/github-contribution-grid-snake-dark.svg output/
+            echo "✅ Copied dark snake SVG to output/"
+          fi
+          ls -la output/ || echo "Output directory contents:"
+          ls -la dist/ || echo "Dist directory contents:"
       
       - name: Push to GitHub
         run: |
