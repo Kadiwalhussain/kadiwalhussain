@@ -187,13 +187,21 @@ I'm a **Full-Stack Developer** passionate about building innovative solutions an
   <img src="https://github-profile-trophy.vercel.app/?username=Kadiwalhussain&theme=tokyonight&no-frame=true&column=5&margin-w=15&margin-h=15&rank=SSS,SS,S,AAA,AA,A,B,C" />
 </p>
 
-### 🐍 Contribution Activity
+### 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kadiwalhussain/kadiwalhussain/output/github-contribution-grid-snake.svg" alt="snake eating my contributions" onerror="this.style.display='none'" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kadiwalhussain&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
 </p>
 
-> **Note:** The contribution snake will appear after the GitHub Actions workflow runs. If you don't see it, go to the [Actions tab](https://github.com/Kadiwalhussain/kadiwalhussain/actions) and run the "Generate Contribution Snake" workflow manually.
+### 🐍 Contribution Activity Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Kadiwalhussain/kadiwalhussain/output/github-contribution-grid-snake.svg" alt="snake eating my contributions" />
+</p>
+
+<p align="center">
+  <sub>💡 <strong>Note:</strong> If the snake doesn't appear, go to the <a href="https://github.com/Kadiwalhussain/kadiwalhussain/actions">Actions tab</a> and manually run the "Generate Contribution Snake" workflow.</sub>
+</p>
 
 </div>
 
